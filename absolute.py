@@ -12,7 +12,7 @@ st.set_page_config(
 # Carregar os dados
 @st.cache_data
 def load_data():
-    data = pd.read_csv('teste.csv')
+    data = pd.read_csv('filmes.csv')
     return data
 
 # Página principal
